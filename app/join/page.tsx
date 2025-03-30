@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
@@ -89,12 +90,18 @@ export default function Join() {
                   </ul>
                 </div>
                 <div className="space-y-4 mt-8">
-                  <a href="/auth/signup" className="block w-full rounded-md bg-black px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                  <Link
+                    href="/auth/signup"
+                    className="block w-full rounded-md bg-black px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >
                     Join Now
-                  </a>
-                  <a href="/membership/bronze" className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                  </Link>
+                  <Link
+                    href="/membership/bronze"
+                    className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                  >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -115,12 +122,18 @@ export default function Join() {
                   </ul>
                 </div>
                 <div className="space-y-4 mt-8">
-                  <a href="/auth/signup" className="block w-full rounded-md bg-black px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                  <Link
+                    href="/auth/signup"
+                    className="block w-full rounded-md bg-black px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >
                     Join Now
-                  </a>
-                  <a href="/membership/silver" className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                  </Link>
+                  <Link
+                    href="/membership/silver"
+                    className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                  >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -141,12 +154,18 @@ export default function Join() {
                   </ul>
                 </div>
                 <div className="space-y-4 mt-8">
-                  <a href="/auth/signup" className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                  <Link
+                    href="/auth/signup"
+                    className="block w-full rounded-md bg-white px-3 py-2 text-center text-sm font-semibold leading-6 text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  >
                     Join Now
-                  </a>
-                  <a href="/membership/gold" className="block w-full rounded-md bg-transparent px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm ring-1 ring-inset ring-white/30 hover:bg-white/10">
+                  </Link>
+                  <Link
+                    href="/membership/gold"
+                    className="block w-full rounded-md bg-transparent px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm ring-1 ring-inset ring-white/30 hover:bg-white/10"
+                  >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
