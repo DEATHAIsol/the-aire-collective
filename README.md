@@ -1,24 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The AIRE Collective
+
+A digital marketplace platform built with Next.js, featuring a modern black and white theme. The platform offers three membership tiers (Bronze, Silver, and Gold) with varying levels of access and benefits.
+
+## Features
+
+- Modern, responsive design with a sleek black and white theme
+- Three membership tiers with different pricing and benefits
+- Secure authentication system
+- Product management system
+- Seller dashboard
+- Categories and product listing pages
+
+## Tech Stack
+
+- Next.js 14
+- React
+- Tailwind CSS
+- TypeScript
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is deployed on Vercel.
 
 ## Learn More
 
